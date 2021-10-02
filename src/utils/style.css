@@ -1,0 +1,93 @@
+.cust_drop {
+    box-sizing: border-box;
+    border-radius: 5px;
+    box-shadow: none;
+    transition: all .3s;
+    display: block;
+    line-height: 1.5;
+    color: #757575;
+    font-family: "Roboto", sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
+    background-clip: padding-box;
+    width: 100%;
+    padding-top: 0.8rem;
+    padding-bottom: 0.7rem;
+    padding-left: 0.4rem;
+    background-color: #f5f5f5;
+    border-color: transparent;
+    border-bottom-color: #b9d9e0;
+}
+
+.cust_date {
+    box-sizing: border-box;
+    border-radius: 5px;
+    box-shadow: none;
+    color: #757575;
+    font-family: "Roboto", sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
+    background-clip: padding-box;
+    width: 100%;
+    background-color: #f5f5f5;
+    border-color: transparent;
+    border-bottom-color: #b9d9e0;
+}
+
+
+.cust_clock {
+    box-sizing: border-box;
+    border-radius: 5px;
+    box-shadow: none;
+    color: #757575;
+    font-family: "Roboto", sans-serif;
+    font-size: 2rem;
+    font-weight: 300;
+    background-clip: padding-box;
+    width: 100%;
+    border-color: transparent;
+    border-bottom-color: #b9d9e0;
+}
+
+
+.my_row {
+    padding-top: 0.0rem;
+    padding-bottom: 0.0rem;
+    margin-bottom: -20px;
+    margin-top: -20px;
+}
+
+.item_details td {
+    padding-right: 25px;
+    padding-bottom: 10px;
+}
+
+.my-font-weight {
+    font-weight: 500;
+}
+
+
+.small_header {
+    padding-left: 0.5rem;
+    padding-top: 0.5rem;
+    font-weight: 300;
+    color: #757575;
+}
+
+.options_header {
+    color: #5d5d5d;
+    font-weight: 300;
+}
+
+.my_options {
+    padding-right: 0.6rem;
+    padding-left: 0.3rem;
+}
+
+.my_checkbx {
+    position: absolute;
+    width: 1.5rem;
+    margin-left: 0.3rem;
+    height: 1.25rem;
+    background-color: #61dafb;
+}

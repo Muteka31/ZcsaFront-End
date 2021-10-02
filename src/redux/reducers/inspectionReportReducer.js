@@ -1,0 +1,11 @@
+import * as constants from '../constants';
+import { SUCCESS_SUFFIX } from "redux-axios-middleware";
+
+export default function inspectionReportReducer(state = [], action){
+    switch(action.type){
+        case constants.LIST_IQM_INSPECTION_REPORT + SUCCESS_SUFFIX:
+            return action.payload.data;
+       default:
+           return state;
+    }
+}
