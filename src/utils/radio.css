@@ -1,0 +1,89 @@
+@supports(-webkit-appearance: none) or (-moz-appearance: none) {
+    input[type='radio'] {
+        --active: #275EFE;
+        --active-inner: #fff;
+        --focus: 2px rgba(39, 94, 254, .3);
+        --border: #BBC1E1;
+        --border-hover: #275EFE;
+        --background: #fff;
+        --disabled: #F6F8FF;
+        --disabled-inner: #E1E6F9;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        height: 21px;
+        outline: none;
+        display: inline-block;
+        vertical-align: top;
+        position: relative;
+        margin: 0;
+        padding: 10px;
+        cursor: pointer;
+        border: 1px solid var(--bc, var(--border));
+        background: var(--b, var(--background));
+        transition: background .3s, border-color .3s, box-shadow .2s;
+        border-radius: 20%;
+    }
+
+
+    input[type='radio']:hover {
+        --bc: var(--border-hover);
+    }
+
+    input[type='radio']:focus {
+        box-shadow: 0 0 0 var(--focus);
+    }
+
+    input[type='radio']:after {
+        opacity: var(--o, 0);
+    }
+
+    input[type='radio']:checked {
+        --o: 1;
+    }
+
+    + label {
+        font-size: 14px;
+        line-height: 21px;
+        display: inline-block;
+        vertical-align: top;
+        cursor: pointer;
+        margin-left: 4px;
+    }
+
+
+    input[type='radio']:after {
+        width: 19px;
+        height: 19px;
+        border-radius: 50%;
+        background: var(--active-inner);
+        opacity: 0;
+        transform: scale(var(--s, .7));
+        content: '';
+        display: block;
+        left: 0;
+        top: 0;
+        position: absolute;
+        transition: transform var(--d-t) var(--d-t-e, ease), opacity var(--d-o, .2s);
+    }
+
+    input[type='radio']:checked {
+        border-width: 1px;
+        background-image: url("./images/reytruorei.png");
+        background-repeat: no-repeat;
+        background-color: #275EFE;
+        --s: .5;
+        --b: var(--active);
+        --bc: var(--active);
+        --d-o: .3s;
+        --d-t: .6s;
+        --d-t-e: cubic-bezier(.2, .85, .32, 1.2);
+        --d-o: .3s;
+        --d-t: .6s;
+        --d-t-e: cubic-bezier(.2, .85, .32, 1.2);
+        --b: var(--disabled-inner);
+        --bc: var(--border);
+    }
+
+
+
+}

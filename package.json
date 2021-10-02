@@ -1,0 +1,61 @@
+{
+  "name": "zcsa-web-front-end",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.11.10",
+    "@testing-library/react": "^11.2.6",
+    "@testing-library/user-event": "^12.8.3",
+    "apply-middleware": "^1.0.3",
+    "axios": "^0.21.1",
+    "bootstrap": "^4.6.0",
+    "combine-reducers": "^1.0.0",
+    "create-store": "^1.0.0",
+    "date-fns": "^2.22.1",
+    "keycloak-js": "^12.0.1",
+    "mdbreact": "^4.21.0",
+    "moment": "^2.29.1",
+    "rc-time-picker": "^3.7.3",
+    "react": "^17.0.2",
+    "react-bootstrap": "^1.5.2",
+    "react-datepicker": "^3.7.0",
+    "react-dom": "^17.0.1",
+    "react-redux": "^7.1.3",
+    "react-router": "^5.1.2",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "4.0.3",
+    "redux": "^4.0.4",
+    "redux-axios-middleware": "^4.0.1",
+    "redux-compose": "^1.0.4",
+    "redux-devtools-extension": "^2.13.9",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.3.0",
+    "sass": "^1.32.11",
+    "sweetalert": "^2.1.2",
+    "web-vitals": "^1.1.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
